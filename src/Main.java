@@ -3,6 +3,7 @@ public class Main {
         System.out.println(createObject("Apple"));
         System.out.println(createObject("Lemon"));
         System.out.println(createObject("Watermelon"));
+
     }
     static Fruit createObject(String className) {
         Fruit linkToObject = null;
